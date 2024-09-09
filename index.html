@@ -4,13 +4,24 @@
     <title>Inlämningsuppgift 3</title>
 
     <head>
+
+        // Refererar till css och js-fil som skall användas i detta htmldokument
+
         <link rel="stylesheet" href="stylesheet.css">
         <script type="text/javascript" src="myScript.js"></script>
+    
     </head>
 
     <body>
+
+        // Ursprungliga headern som skall stå innan knappen klickas
+        // Identifierad för att kunna refereras till i scriptet
+
         <h1 id="originalHeader">Hello World!</h1>    
+
+        // Knappen med klickfunktion som vid klick hänvisar till funktionen 'headerSwap'
         <input type = "button" onclick = "headerSwap()" value = "Please press me!" >
+
     </body>
 
 </html>
